@@ -1,0 +1,145 @@
+
+    .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 550px) {
+    h1 { font-size: 16px; }
+    p { font-size: 13; }
+  }
+  
+  @media (min-width: 551px) {
+    h1 { font-size: 32px; }
+    p { font-size: 13; }
+  }
+
+  h1 {
+    text-align: center; 
+    font-family: charter; 
+    font-weight: normal; 
+    text-transform: uppercase; 
+    margin-top: 30px; 
+    color:white;
+    text-shadow: -.5em .2em gray;
+
+
+
+  }
+ .date{
+  text-indent: 1em;
+  font-family: charter; 
+  color:white
+ }
+ html,body {
+  min-height: 100vh;
+
+
+  background-image:
+      linear-gradient(45deg,
+          rgba(62, 81, 81, 0.75) 45%,
+          rgba(222, 203, 164, 0.75) 100%), 
+            url('Images/BookShelf.webp');
+            background-repeat: no-repeat; 
+            background-size: cover;      
+            width:100%;
+            height:100%;
+            margin: 0;
+            padding:0;
+            overflow-x:hidden;            
+}
+h2{
+text-align: center; 
+font-family:charter; 
+color:white;
+font-size:1vw;
+}
+.aboutWebsite{
+letter-spacing: 1px;
+text-align: center; 
+font-family: charter; 
+font-weight: normal; 
+color:white;
+font-size:1vw;
+
+}
+table{
+width: 100%; 
+table-layout: fixed
+}
+.resume{
+text-align:center; 
+color: inherit;
+font-family: charter; 
+color:white
+}
+.bookNames{
+text-align: center;
+font-family: charter;
+color:white
+}
+.bookParagraphs{
+letter-spacing: 1px;
+margin-left: auto;
+margin-right: auto;
+max-width: 300px; 
+font-family: charter; 
+color:white;
+}
+.contact{
+text-indent: 1.5em;
+text-align: left; 
+font-size: 1em; 
+font-family: charter; color:white
+}
+
+  
+@media (max-width: 550px) {
+  nav ul li{font-size: 16px;}
+}
+
+@media (min-width: 550px) {
+  nav ul li{font-size: 16px;}
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  font-weight: bold;
+    font-size: large;
+}
+
+nav ul li {
+  margin: 0 130px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff; 
+  padding: 10px 20px; 
+  border-radius: 5px;
+}
+
+
+
+  .NavigationBar{
+    color: inherit;
+    color:white;
+    text-decoration:none;
+  }
+  @media (min-width: 551px) {
+    .contactPage{font-size: 12px;}
+  }
+  @media (max-width: 550px) {
+    .contactPage{font-size: 12px;}
+  }
+  

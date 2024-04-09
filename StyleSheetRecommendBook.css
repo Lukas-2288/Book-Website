@@ -1,0 +1,63 @@
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    font-weight: bold;
+      font-size: large;
+  }
+  
+  nav ul li {
+    margin: 0 80px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+  }
+    
+     
+        
+    .NavigationBar{
+      color: inherit;
+      color:white;
+      text-decoration:none;
+    }
+
+    .bookNames{
+        font-family: charter;
+        color:white
+    }
+
+    .bookTitles{
+        font-family: Euphemia UCAS;
+        color:white;
+        text-align: center;
+    }
+
+    table{
+        width: 100%; 
+        table-layout: fixed
+        }
+    .bookParagraphs{
+        letter-spacing: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px; 
+        font-family: charter; 
+        color:white;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+          }
